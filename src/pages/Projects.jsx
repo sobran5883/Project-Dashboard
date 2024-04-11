@@ -105,7 +105,7 @@ function Projects() {
                 </div>
                 {showInput && (
                     <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
-                        <div className="bg-white p-6 rounded-md shadow-md">
+                        <div className="bg-white p-6 mx-4 rounded-md shadow-md">
                             <div className="flex items-center justify-between mb-6">
                                 <h1 className="text-lg font-bold">New Storyboard</h1>
                                 <button className="bg-gray-200 rounded-full p-1" onClick={handleIconClick1}>
